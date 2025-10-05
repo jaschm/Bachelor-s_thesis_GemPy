@@ -15,7 +15,8 @@ Create and activate a Python environment (e.g. Conda or venv) and install depend
 ```bash
 pip install gempy gempy-viewer pyvista vtk trimesh ezdxf rasterio matplotlib scipy numpy pandas
 
-
+---
+###
 Usage
 
 Download the DEM file
