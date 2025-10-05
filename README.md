@@ -19,7 +19,7 @@ Download the DEM file
 
 Download elevation model: L3342D.tif from the National Land Survey of Finland File Service:
 
-**[National Land Survey of Finland MapSite]([https://asiointi.maanmittauslaitos.fi/karttapaikka/tiedostopalvelu/korkeusmalli?lang=fi](https://asiointi.maanmittauslaitos.fi/karttapaikka/tiedostopalvelu/korkeusmalli?lang=en))**
+**[National Land Survey of Finland MapSite]([https://asiointi.maanmittauslaitos.fi/karttapaikka/tiedostopalvelu/korkeusmalli?lang=fi)**
 
 Insert the file into the input folder. Place the downloaded file into:
 
