@@ -1,0 +1,106 @@
+{
+  "entry": {
+    "OM": "",
+    "Or": "",
+    "TY": "",
+    "TT": "",
+    "X": "",
+    "Y": "",
+    "Z": "",
+    "pvm": "",
+    "nro": "",
+    "AL": "",
+    "KL": "",
+    "SA": [],
+    "Si": [],
+    "KI": [],
+    "Sa": [],
+    "liSa": [],
+    "Hk": [],
+    "Sr": [],
+    "SrMr": [],
+    "Ki": [],
+    "Mr": [],
+    "Hksa": [],
+    "Sasi": [],
+    "Srmr": [],
+    "Hksr": [],
+    "Ka": [],
+    "Paattymissyvyys": ""
+  },
+  "start_keys": ["OM", "Or", "TY", "TT", "AL", "KL"],
+  "line_keys": ["SA", "Si", "KI", "Sa", "liSa", "Hk", "Sr", "SR", "SrMr", "Ki", "Mr", "Ka", "Hksa", "Sasi", "Srmr", "Hksr"],
+  "column_names": ["PO", "OM", "Or", "TY", "TT", "X", "Y", "Z", "pvm", "nro", "AL", "KL", "SA", "Si", "KI", "Sa", "liSa", "Hk", "Sr", "SrMr", "Ki", "Mr", "Hksa", "Sasi", "Srmr", "Hksr", "Ka", "Paattymissyvyys"],
+  "fieldnames": ["maalaji", "value", "OM", "Or", "TY", "TT", "X", "Y", "Z", "pvm", "nro", "AL", "KL", "korko"],
+  "header_row": ["piste", "X", "Y", "Z", "surface"],
+
+  "alias_map": {
+    "liSa": "Sa",
+    "SrMr": "Mr",
+    "Srmr": "Mr",
+    "HkSr": "Mr",
+    "Hksr": "Mr",
+    "Hksa": "Sa",
+    "Sasi": "Sa",
+    "Sr": "Mr",
+    "Ki": "Mr",
+    "SA": "Sa"
+  },
+
+  "layers_to_include": ["kallio","Mr","Sa"],
+  "layers_to_ignore": ["Sasi", "Srmr"],
+
+  "colormap": {
+    "Sa": "#92d2fe",
+    "Mr": "#daad30",
+    "Hk": "#f0ea52",
+    "Ka": "#ffff00",
+    "Si": "#ff00ff",
+    "Sr": "#71db71",
+    "Srmr": "#daad30",
+    "kallio": "#FF0000",
+    "basement": "#FF0000"
+    
+  },
+
+  
+  "project_name": "Luk-tutkielma",
+  "resolution": [30, 30, 30],
+  "orientations_csv_path": "aineiston_kasittely/output_data/orientation_offset.csv",
+  "surface_points_csv_path": "aineiston_kasittely/output_data/offset_data.csv",
+
+  "mapping_object": {
+    "Postglasiaalinen": ["Sa"],
+    "Glasiaalinen": ["Mr"],
+    "basement": ["kallio"]
+  },
+
+  "stack_relations": {
+    "Postglasiaalinen": "ONLAP",
+    "Glasiaalinen": "ONLAP",
+    "basement": "BASEMENT"
+  },
+
+  
+  "custom_section": {
+    "name": "custom",
+    "start": [0, 0],
+    "end": [1, 1],
+    "samples": [200, 100]
+  },
+  "sections": {
+    "section1": [[1000, 1000], [2000, 2000], [200, 100]]
+  },
+
+  "topography_downsample_factor": 1,
+  "export_meshes_folder": "exported_meshes",
+
+  "plots": {
+    "plot_2d_basic": true,
+    "plot_2d_legend": false,
+    "plot_3d": true,
+    "strip_all_boundary_lines": false,
+    "strip_boundary_labels": []
+  }
+
+}
