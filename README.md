@@ -18,7 +18,7 @@ pip install gempy gempy-viewer pyvista vtk trimesh ezdxf rasterio matplotlib sci
 Download the DEM file
 
 Download elevation model: L3342D.tif from the National Land Survey of Finland File Service:
-**[National Land Survey of Finland MapSite](https://gtkdata.gtk.fi/pohjatutkimukset/index.html)**
+**[National Land Survey of Finland MapSite](https://asiointi.maanmittauslaitos.fi/karttapaikka/tiedostopalvelu/korkeusmalli?lang=fi)**
 
 Insert the file into the input folder. Place the downloaded file into: aineiston_kasittely/input_data/L3342D.tif
 
