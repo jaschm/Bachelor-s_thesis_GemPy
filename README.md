@@ -1,4 +1,4 @@
-# Bachelor's Thesis: 3D modeling of Quaternary sediments in Littoinen, Kaarina, using the open-source GemPy library
+# Bachelor's Thesis: **[3D modeling of Quaternary sediments in Littoinen, Kaarina, using the open-source GemPy library](https://urn.fi/URN:NBN:fi-fe20251016101769)**
 
 This repository contains the full code and data structure for a bachelor's thesis project using the open-source **[GemPy](https://www.gempy.org)** library for 3D geological modelling.  
 The example dataset models the subsurface of **Littoinen, Kaarina (Southwest Finland)** based on **[GTK ground investigation data](https://gtkdata.gtk.fi/pohjatutkimukset/index.html)**.
