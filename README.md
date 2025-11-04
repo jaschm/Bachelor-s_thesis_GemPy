@@ -29,7 +29,7 @@ Execute the following command in the project root:
 python src/gem.py
 
 Optional: Use other locations  
-If you want to build a model from another location, download a TEK file from:  **[GTK ground investigation register](https://asiointi.maanmittauslaitos.fi/karttapaikka/tiedostopalvelu/korkeusmalli?lang=fi)** or from your own site’s Geotechnical investigator.
+If you want to build a model from another location, download a TEK file from:  **[GTK ground investigation register](https://gtkdata.gtk.fi/pohjatutkimukset/index.html)** or from your own site’s Geotechnical investigator.
 
 Note:  
 In this case, you may also need to download a new DEM file for the corresponding area.  
